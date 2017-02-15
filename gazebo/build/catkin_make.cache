@@ -1,0 +1,2 @@
+jackal_drive
+-DCATKIN_DEVEL_PREFIX=/home/emily/jackal/gazebo/devel -DCMAKE_INSTALL_PREFIX=/home/emily/jackal/gazebo/install -G Unix Makefiles

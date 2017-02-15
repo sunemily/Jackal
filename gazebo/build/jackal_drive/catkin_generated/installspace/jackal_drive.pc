@@ -1,0 +1,8 @@
+prefix=/home/emily/jackal/gazebo/install
+
+Name: jackal_drive
+Description: Description of jackal_drive
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/emily/jackal/gazebo/install/lib 
+Requires: 
