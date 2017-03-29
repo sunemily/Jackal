@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+
+<!-- Set environment variable JACKAL_URDF_EXTRAS to the absolute 
+     location of this file to add to the robot. -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Replace with absolute filename on your machine -->
+  <xacro:include filename="/home/raghava/Desktop/hokuyo/hokuyo_utm_lx30.urdf.xacro" />
+  
+  <!-- Replace with absolute filepath on your machine -->
+  <xacro:hokuyo_utm_lx30 
+    name="my_hokuyo_1"
+    topic="front_hokuyo_scan_1"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="front_mount"
+    offset="0 -0.105 0.01"
+    rpy="0 0 0"
+  />
+
+  <xacro:hokuyo_utm_lx30 
+    name="my_hokuyo_2"
+    topic="front_hokuyo_scan_2"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="front_mount"
+    offset="0 -0.035 0.01"
+    rpy="0 0 0"
+  />
+
+  <xacro:hokuyo_utm_lx30 
+    name="my_hokuyo_3"
+    topic="front_hokuyo_scan_3"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="front_mount"
+    offset="0 0.035 0.01"
+    rpy="0 0 0"
+  />
+
+  <xacro:hokuyo_utm_lx30 
+    name="my_hokuyo_4"
+    topic="front_hokuyo_scan_4"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="front_mount"
+    offset="0 0.105 0.01"
+    rpy="0 0 0"
+  />
+
+  <xacro:hokuyo_utm_lx30 
+    name="my_hokuyo_5"
+    topic="rear_hokuyo_scan_1"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="rear_mount"
+    offset="0 -0.105 0.01"
+    rpy="0 0 3.14159"
+  />
+
+  <xacro:hokuyo_utm_lx30 
+    name="my_hokuyo_6"
+    topic="rear_hokuyo_scan_2"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="rear_mount"
+    offset="0 -0.035 0.01"
+    rpy="0 0 3.14159"
+  />
+
+  <xacro:hokuyo_utm_lx30 
+    name="my_hokuyo_7"
+    topic="rear_hokuyo_scan_3"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="rear_mount"
+    offset="0 0.035 0.01"
+    rpy="0 0 3.14159"
+  />
+
+  <xacro:hokuyo_utm_lx30 
+    name="my_hokuyo_8"
+    topic="rear_hokuyo_scan_4"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="rear_mount"
+    offset="0 0.105 0.01"
+    rpy="0 0 3.14159"
+  />
+
+  <!--<xacro:hokuyo_utm_lx30 
+    name="my_hokuyo"
+    topic="front_hokuyo_scan"
+    filepath="file:///home/raghava/Desktop/hokuyo/UTM-30LX.STL" 
+    parent="front_mount"
+    offset="0 0 0.01"
+    rpy="0 0 0"
+  />-->
+
+</robot>
