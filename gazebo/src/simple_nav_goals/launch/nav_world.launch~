@@ -2,7 +2,7 @@
   <arg name="use_sim_time" default="true" />
   <arg name="gui" default="true" />
   <arg name="headless" default="false" />
-  <arg name="world_name" default="$(find simple_nav_goals)/worlds/vicon_field.world" />
+  <arg name="world_name" default="$(find jackal_gazebo)/worlds/vicon_field.world" />
 
   <!-- Short-term hack to support the original front_laser:=true argument for spawning
        the simulator. This will be removed in favour of using the config:=x arg instead. -->
@@ -38,5 +38,5 @@
 
   <!-- Spawn Jackal -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
-	      args="-urdf -model jackal -param robot_description -x 0 -y 0 -z 1.0" />
+	      args="-urdf -model jackal -param robot_description -x 1 -y 1 -z 1.0" />
 </launch>
