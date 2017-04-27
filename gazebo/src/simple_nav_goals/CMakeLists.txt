@@ -10,6 +10,8 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
 )
 
+find_package(catkin REQUIRED gazebo_ros)
+
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -186,6 +188,3 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
-add_executable(simple_nav_goals src/simple_nav_goals.cpp)
-target_link_libraries(simple_nav_goals ${catkin_LIBRARIES})
