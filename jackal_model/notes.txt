@@ -1,0 +1,29 @@
+=== Mounting ===
+- Use 8020 (Quick, easy, strong. CAD files available.)
+
+- Standard 1 inch bars				(Part #: 1010)
+- T-Nuts for 1010 mounting			(Part #: 14162/4)
+- Corner 2 hole 90 degree brackets	(Part #: 4119)
+- Corner 4 hole 90 degree brackets	(Part #: 4101/4176)
+  - Mounting screws	+ nut			(Part #: 3393)
+- Strong corner 90 degree brackets	(Part #: 14058)
+  - Mounting screws	+ nut			(Part #: 3457)
+- End caps							(Part #: 2015)
+
+- (Optional) make replacement plate	(12mm x 12mm, 5mm holes)
+
+=== Stereo Camera ===
+- ROS supported cameras: http://wiki.ros.org/Sensors
+- ROS Shortlist:
+ 1. DUO-3D					($600 - $700)	https://duo3d.com/product/duo-minilx-lv1
+ 2. PointGrey Bumblebee2	(> $1000?)		https://www.ptgrey.com/bumblebee2-firewire-stereo-vision-camera-systems
+ 3. ZED Stereo Camera		($450)			https://www.stereolabs.com/
+ 4. Occam Omni Stereo		(??)			http://occamvisiongroup.com/product/omni-stereo/
+
+- ZED and DUO seem to be well supported, low cost alternatives to the Bumblebee2
+ - Around 1/2 to 1/4 the price
+ - Supported by ROS, OpenCV
+ - Can get here quicker
+ - Higher resolution
+
+- Occam Omni just looks ridiculous. 
